@@ -8,7 +8,7 @@
 export const timeline = [
   {
     type: 'education',
-    period: '2023 — Present',
+    period: '2023 — 2026',
     title: 'BS Computer Science',
     place: 'University',
     description:
