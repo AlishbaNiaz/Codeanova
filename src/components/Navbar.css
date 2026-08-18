@@ -1,0 +1,135 @@
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  background: transparent;
+  border-bottom: 1px solid transparent;
+  transition: background 0.2s ease, border-color 0.2s ease;
+}
+
+.nav--scrolled {
+  background: rgba(205, 244, 247, 0.167);
+  backdrop-filter: blur(15px);
+  border-bottom-color: var(--border);
+}
+
+.nav-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.brand {
+  text-decoration: none;
+  color: var(--text);
+}
+
+.brand-mark {
+  font-family: var(--font-mono);
+  font-size: 1.8rem;
+  font-weight: 800;
+  line-height: 1;
+  letter-spacing: 0.5px;
+  white-space: nowrap;
+  margin: 0;
+  padding: 0;
+
+  background: linear-gradient(
+    90deg,
+    #1ed6a8 0%,
+    #20a9c9 50%,
+    #1f45ad 100%
+  );
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.brand-mark::before {
+  content: none;
+}
+
+.brand:hover .brand-mark {
+  color: var(--violet);
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 6px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: var(--text);
+  font-weight: 500;
+  font-size: 0.92rem;
+  padding: 8px 16px;
+  border-radius: 999px;
+  transition: color 0.15s ease, background 0.15s ease;
+}
+
+.menu a:hover {
+  color: var(--text);
+  background: var(--surface-2);
+}
+
+.nav-cta {
+  margin-left: 6px;
+  padding: 9px 18px;
+  color: var(--text) !important;
+}
+
+.burger {
+  display: none;
+  background: none;
+  border: none;
+  color: var(--text);
+  cursor: pointer;
+  padding: 6px;
+}
+
+@media (max-width: 780px) {
+  .burger {
+    display: flex;
+  }
+
+  .menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 4%;
+    left: 4%;
+    flex-direction: column;
+    align-items: stretch;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 10px;
+    box-shadow: var(--shadow);
+    gap: 2px;
+  }
+
+  .menu--open {
+    display: flex;
+  }
+
+  .menu a {
+    padding: 12px 14px;
+    border-radius: var(--radius-sm);
+  }
+
+  .nav-cta {
+    margin: 6px 0 0;
+    text-align: center;
+    justify-content: center;
+  }
+}
