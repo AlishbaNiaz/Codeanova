@@ -26,7 +26,7 @@ export const timeline = [
     type: 'work',
     period: '2026',
     title: 'Full Stack Developer',
-    place: 'Digitalors',
+    place: 'Meem Digitech',
     description: 'Make websites using React.js, Node.js, Express, and PostgreSQL.',
   },
     {

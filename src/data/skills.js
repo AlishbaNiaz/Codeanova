@@ -16,5 +16,6 @@ export const skillLevels = [
   { name: 'PostgreSQL', percent: 90 },
   { name: 'Web Development', percent: 90 },
   { name: 'UI/UX Design', percent: 85 },
-
+  { name: 'Front end Development', percent: 90 },
+  { name: 'Backend Development', percent: 85 },
 ]
