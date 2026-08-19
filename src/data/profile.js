@@ -17,6 +17,11 @@ export const profile = {
 };
 
 export const services = [
+    {
+    title: "Full-Stack Development",
+    description:
+      "Developing complete web applications with modern frontend, backend, and database technologies.",
+  },
    {
     title: "Web Development",
     description:
@@ -26,11 +31,6 @@ export const services = [
     title: "Responsive Design",
     description:
       "Creating websites that provide a seamless experience across mobile, tablet, and desktop devices.",
-  },
-  {
-    title: "Full-Stack Development",
-    description:
-      "Developing complete web applications with modern frontend, backend, and database technologies.",
   },
   {
     title: "UI/UX Design",

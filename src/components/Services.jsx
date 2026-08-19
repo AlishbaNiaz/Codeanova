@@ -9,7 +9,7 @@ import {
 import { services } from "../data/profile";
 import "./Services.css";
 
-const icons = [Code2, Smartphone, Globe, Figma, PenTool, Megaphone];
+const icons = [Globe, Code2, Smartphone, Figma, PenTool, Megaphone];
 
 export default function Services() {
   return (

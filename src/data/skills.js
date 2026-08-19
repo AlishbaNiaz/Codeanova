@@ -5,6 +5,15 @@ export const skillTags = [
   'React',
   'Bootstrap',
   'Git',
+  'Node.js',
+  'Express',
+  'PostgreSQL',
+  'UI/UX Design',
+  'Front end Development',
+  'Backend Development',
+  'Responsive Design',
+  'Figma Prototyping',
+  'WordPress Development',
 ]
 
 export const skillLevels = [
