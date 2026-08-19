@@ -1,17 +1,12 @@
 export const profile = {
-  name: "Alishba Niaz",
+  name: "CodeAnova",
   role: "Full Stack Developer",
   tagline: "Building clean, responsive interfaces.",
-  email: "alishbaniaz55@gmail.com",
+  email: "codeanova0@gmail.com",
   location: "Lahore, Pakistan",
-  resumeFile: "../public/Alishba-Niaz-Resume.pdf",
+  resumeFile: "../public/CodeAnova-Resume.pdf",
   bio: `I'm a motivated and detail-oriented Full Stack Developer with experience in building responsive, user-friendly, and efficient web applications. My technical expertise includes HTML, CSS, JavaScript, React.js, Node.js, Express.js, and databases. I enjoy developing complete web solutions, from designing modern front-end interfaces to building robust back-end systems and APIs. I take pride in writing clean, well-structured code and creating applications that balance functionality performance, and aesthetics.`,
   socials: [
-    { label: "GitHub", url: "https://github.com/AlishbaNiaz" },
-    {
-      label: "LinkedIn",
-      url: "https://www.linkedin.com/in/alishba-niaz-704841320/",
-    },
     { label: "Instagram", url: "https://www.instagram.com/codeanova/" },
     {
       label: "Facebook",
