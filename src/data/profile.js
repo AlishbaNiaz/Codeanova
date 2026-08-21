@@ -12,7 +12,7 @@ export const profile = {
       label: "Facebook",
       url: "https://www.facebook.com/profile.php?id=61579033361337",
     },
-    { label: "WhatsApp", url: "https://wa.me/923154029312" },
+    { label: "WhatsApp", url: "https://wa.me/923103410848" },
   ],
 };
 
